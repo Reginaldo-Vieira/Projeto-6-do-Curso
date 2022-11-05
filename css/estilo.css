@@ -1,0 +1,159 @@
+body{
+	background: #E6E6E6 url(../imagem/fundo.png) repeat-x;
+	font: 16px "Verdana", Arial;
+}
+
+#caixa-principal{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+/*Formatação para todos os links*/
+a:link, a:visited, a:active{
+	color: #B45F04;
+	text-decoration: none;
+}
+a:hover{
+	color: #088A4B;
+}
+
+/*Header*/
+header{
+	padding: 15px 0 30px 0;
+}
+#logo a{
+	display: block;
+	width: 248px;
+	height: 21px;
+	background: url(../imagem/logo.png) no-repeat;
+	text-indent: -5000px;
+	float: left;
+}
+nav{
+	float: right;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	margin: 0 15px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	border-bottom: 2px solid #088A4B;
+}
+
+/*Área conteúdo*/
+#area-conteudo{
+	
+}
+
+/*Principal*/
+#principal{
+	width: 710px;
+	float: left;
+}
+article{
+	width: 310px;
+	float: left;
+	margin: 20px 0 0 29px;
+}
+article h3{
+	margin: 0;
+	color: #088A4B;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+article a, article p{
+	font-size: 0.9em;
+}
+article p{
+	margin: 0;
+	margin-bottom: 10px;
+}
+article ul{
+	margin: 0;
+}
+
+/*Lateral*/
+aside{
+	width: 350px;
+	float: right;
+	margin-bottom: 20px;
+}
+section#visita{
+	background-color: #EFF8FB;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+aside h4{
+	color: #B45F04;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin: 0;
+	padding: 20px 0 10px 30px;
+}
+form{
+	margin: 0 30px;
+}
+section#visita fieldset{
+	border: none;
+	padding: 0;
+}
+section#visita legend{
+	display: none;
+}
+label{
+	font-size: 0.8em;
+	color: #088A4B;
+}
+input{
+	border: none;
+}
+input[type=date]{
+	width: 120px;
+	font-size: 0.9em;
+}
+input[type=number]{
+	width: 35px;
+}
+input[type=submit]{
+	width: 100%;
+	background-color: #0489B1;
+	color: white;
+	height: 40px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+section#galeria{
+	background-color: #E0F2F7;
+}
+#fotos{
+	margin: 0 30px;
+	
+}
+section#galeria a{
+	display: block;
+	background: url(../imagem/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 20px 16px;
+	margin: 10px 8px;
+}
+
+/*Footer*/
+footer{
+	background: url(../imagem/fundo-rodape.png) no-repeat center top;
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
+}
+footer>a{
+	margin: 0 10px;	
+}
